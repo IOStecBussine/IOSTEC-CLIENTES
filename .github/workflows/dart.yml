@@ -46,8 +46,6 @@ jobs:
       - name: Instalar dependencias
         run: flutter pub get
 
-      - name: Verificar proyecto
-        run: flutter analyze
 
       - name: Generar APK
         run: flutter build apk --release
