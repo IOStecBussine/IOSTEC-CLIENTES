@@ -23,7 +23,10 @@ jobs:
 
       - name: Crear estructura Android
         run: flutter create --platforms=android .
-
+      - name: Obtener huellas SHA
+        run: |
+          cd android
+          ./gradlew signingReport
       - name: Instalar dependencias
         run: flutter pub get
 
