@@ -1,3 +1,4 @@
+
 name: iostec_clientes
 description: Aplicacion oficial para clientes de IOSTEC
 publish_to: "none"
@@ -10,10 +11,8 @@ dependencies:
   flutter:
     sdk: flutter
   cupertino_icons: ^1.0.8
-  firebase_core: ^3.13.1
-  firebase_auth: ^5.5.4
-  cloud_firestore: ^5.6.9
-  url_launcher: ^6.3.1
+  shared_preferences: ^2.5.3
+
 dev_dependencies:
   flutter_test:
     sdk: flutter
